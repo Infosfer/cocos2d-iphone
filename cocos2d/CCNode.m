@@ -790,6 +790,18 @@ static NSUInteger globalOrderOfArrival = 1;
 	[_actionManager pauseTarget:self];
 }
 
+/* TODO: Instance Name */
+- (void) setInstanceName:(NSString *)instanceName
+{
+    _instanceName = instanceName;
+}
+
+- (NSString*) instanceName
+{
+    return _instanceName;
+}
+
+
 /* override me */
 -(void) update:(ccTime)delta
 {

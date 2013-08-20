@@ -1027,6 +1027,12 @@
 		A0EFA880169CDFA4006D1B22 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */; };
 		A0EFA881169CDFA4006D1B22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
 		A0EFA882169CDFA4006D1B22 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503092B210447296005F7AFC /* libz.dylib */; };
+		B2ADE9BD17C2312B009852BE /* CCLabelBMFontv2.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ADE9B917C2312B009852BE /* CCLabelBMFontv2.h */; };
+		B2ADE9BE17C2312B009852BE /* CCLabelBMFontv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9BA17C2312B009852BE /* CCLabelBMFontv2.m */; };
+		B2ADE9BF17C2312B009852BE /* CCLabelTTFv2.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ADE9BB17C2312B009852BE /* CCLabelTTFv2.h */; };
+		B2ADE9C017C2312B009852BE /* CCLabelTTFv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9BC17C2312B009852BE /* CCLabelTTFv2.m */; };
+		B2ADE9C717C23F20009852BE /* CCParticleSystemQuadv2.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ADE9C517C23F20009852BE /* CCParticleSystemQuadv2.h */; };
+		B2ADE9C817C23F20009852BE /* CCParticleSystemQuadv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */; };
 		E0112F53120CB406006667F8 /* CCTransitionPageTurn.h in Headers */ = {isa = PBXBuildFile; fileRef = E0112F4F120CB406006667F8 /* CCTransitionPageTurn.h */; };
 		E0112F54120CB406006667F8 /* CCTransitionPageTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = E0112F50120CB406006667F8 /* CCTransitionPageTurn.m */; };
 		E01E6D8C121F130E001A484F /* CCLabelBMFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E01E6D8A121F130E001A484F /* CCLabelBMFont.h */; };
@@ -1796,6 +1802,12 @@
 		A0E469B5168269E700B929F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		A0EFA7AC169CDF9C006D1B22 /* libcocos2d_box2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2d_box2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EFA886169CDFA4006D1B22 /* libcocos2d_chipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2d_chipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ADE9B917C2312B009852BE /* CCLabelBMFontv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLabelBMFontv2.h; sourceTree = "<group>"; };
+		B2ADE9BA17C2312B009852BE /* CCLabelBMFontv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLabelBMFontv2.m; sourceTree = "<group>"; };
+		B2ADE9BB17C2312B009852BE /* CCLabelTTFv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLabelTTFv2.h; sourceTree = "<group>"; };
+		B2ADE9BC17C2312B009852BE /* CCLabelTTFv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLabelTTFv2.m; sourceTree = "<group>"; };
+		B2ADE9C517C23F20009852BE /* CCParticleSystemQuadv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCParticleSystemQuadv2.h; sourceTree = "<group>"; };
+		B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCParticleSystemQuadv2.m; sourceTree = "<group>"; };
 		E0112F4F120CB406006667F8 /* CCTransitionPageTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTransitionPageTurn.h; sourceTree = "<group>"; };
 		E0112F50120CB406006667F8 /* CCTransitionPageTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTransitionPageTurn.m; sourceTree = "<group>"; };
 		E01E6D8A121F130E001A484F /* CCLabelBMFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CCLabelBMFont.h; sourceTree = "<group>"; };
@@ -2202,6 +2214,10 @@
 		506414C50F9C67C0007A7B24 /* Label Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				B2ADE9B917C2312B009852BE /* CCLabelBMFontv2.h */,
+				B2ADE9BA17C2312B009852BE /* CCLabelBMFontv2.m */,
+				B2ADE9BB17C2312B009852BE /* CCLabelTTFv2.h */,
+				B2ADE9BC17C2312B009852BE /* CCLabelTTFv2.m */,
 				01813A58176A705D00A9D861 /* CCFontDefinition.h */,
 				01813A59176A705D00A9D861 /* CCFontDefinition.m */,
 				E01E6D8A121F130E001A484F /* CCLabelBMFont.h */,
@@ -2282,6 +2298,8 @@
 		50A24E890F378119007CAEB0 /* Particle Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				B2ADE9C517C23F20009852BE /* CCParticleSystemQuadv2.h */,
+				B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */,
 				5038B6B00E196CD8009A621E /* CCParticleSystem.h */,
 				5038B6B10E196CD8009A621E /* CCParticleSystem.m */,
 				50D413240F9A3FE00040C3C8 /* CCParticleSystemQuad.h */,
@@ -3296,7 +3314,10 @@
 				A0D7D9D115E2E730000CA0C4 /* CCPhysicsSprite.h in Headers */,
 				2B192835163361B10049A044 /* CCClippingNode.h in Headers */,
 				A003AC8C1657071100C7B792 /* ccFPSImages.h in Headers */,
-				01813A5A176A705D00A9D861 /* CCFontDefinition.h in Headers */,
+				B2ADE9BD17C2312B009852BE /* CCLabelBMFontv2.h in Headers */,
+				B2ADE9BF17C2312B009852BE /* CCLabelTTFv2.h in Headers */,
+				B2ADE9C717C23F20009852BE /* CCParticleSystemQuadv2.h in Headers */,
+				01813A5A176A705D00A9D861 /* CCFontDefinition.h in Headers */
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4156,7 +4177,10 @@
 				A0D7D9D215E2E730000CA0C4 /* CCPhysicsSprite.mm in Sources */,
 				2B192836163361B10049A044 /* CCClippingNode.m in Sources */,
 				A003AC8F16572D6000C7B792 /* ccFPSImages.m in Sources */,
-				01813A5B176A705D00A9D861 /* CCFontDefinition.m in Sources */,
+				B2ADE9BE17C2312B009852BE /* CCLabelBMFontv2.m in Sources */,
+				B2ADE9C017C2312B009852BE /* CCLabelTTFv2.m in Sources */,
+				B2ADE9C817C23F20009852BE /* CCParticleSystemQuadv2.m in Sources */,
+				01813A5B176A705D00A9D861 /* CCFontDefinition.m in Sources */
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

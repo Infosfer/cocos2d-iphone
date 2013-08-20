@@ -177,6 +177,8 @@ enum {
 	BOOL _ignoreAnchorPointForPosition;
 
 	BOOL _isReorderChildDirty;
+    
+    NSString *_instanceName;
 }
 
 /** The z order of the node relative to its "siblings": children of the same parent */
@@ -286,6 +288,8 @@ enum {
  @since v2.0
  */
 @property (nonatomic, readwrite, retain) CCScheduler *scheduler;
+
+@property (nonatomic, assign) NSString *instanceName;
 
 // initializators
 /** allocates and initializes a node.

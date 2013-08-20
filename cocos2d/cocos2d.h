@@ -73,11 +73,14 @@
 #import "CCLabelTTF.h"
 #import "CCLabelBMFont.h"
 #import "CCLabelAtlas.h"
+#import "CCLabelTTFv2.h"
+#import "CCLabelBMFontv2.h"
 
 #import "CCParticleSystem.h"
 #import "CCParticleSystemQuad.h"
 #import "CCParticleExamples.h"
 #import "CCParticleBatchNode.h"
+#import "CCParticleSystemQuadv2.h"
 
 #import "CCTexture2D.h"
 #import "CCTexturePVR.h"
