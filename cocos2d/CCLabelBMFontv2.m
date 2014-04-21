@@ -46,6 +46,10 @@
     _helperLabel = [[[CCLabelBMFont alloc] init] autorelease];
     [_helperLabel setIgnoreAnchorPointForPosition:YES];
     [_helperLabel setAnchorPoint:CGPointMake(0, 0)];
+
+    ccBlendFunc bldFunc = {GL_ONE, GL_ONE_MINUS_SRC_ALPHA};
+    [_helperLabel setBlendFunc:bldFunc];
+
     [super addChild:_helperLabel];
     
     [self setHorizontalAlignment:kCCTextAlignmentCenter];
