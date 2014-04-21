@@ -4781,6 +4781,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = cocos2d;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4801,9 +4802,11 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/build/Debug-iphonesimulator\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = cocos2d;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4818,6 +4821,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = "cocos2d-documentation";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4830,6 +4834,7 @@
 				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = "cocos2d-documentation";
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4848,6 +4853,7 @@
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				PRODUCT_NAME = box2d;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4865,6 +4871,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = box2d;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4878,6 +4885,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = "build all libs";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4890,6 +4898,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "build all libs";
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4905,6 +4914,7 @@
 				HEADER_SEARCH_PATHS = external/Chipmunk/include/chipmunk;
 				PRODUCT_NAME = Chipmunk;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4923,6 +4933,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = Chipmunk;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4937,6 +4948,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = CocosDenshion;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4949,6 +4961,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = CocosDenshion;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4963,6 +4976,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = CocosBuilderReader;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -4980,6 +4994,7 @@
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = CocosBuilderReader;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5010,6 +5025,7 @@
 				);
 				PRODUCT_NAME = jsbindings;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -5037,6 +5053,7 @@
 				);
 				PRODUCT_NAME = jsbindings;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5052,6 +5069,7 @@
 				PRODUCT_NAME = kazmath;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -5065,6 +5083,7 @@
 				PRODUCT_NAME = kazmath;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5154,6 +5173,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = cocos2d_chipmunk;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -5181,6 +5201,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = cocos2d_chipmunk;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;
