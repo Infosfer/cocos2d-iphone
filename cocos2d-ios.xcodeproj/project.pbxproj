@@ -1029,6 +1029,9 @@
 		A0EFA882169CDFA4006D1B22 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503092B210447296005F7AFC /* libz.dylib */; };
 		B2ADE9C717C23F20009852BE /* CCParticleSystemQuadv2.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ADE9C517C23F20009852BE /* CCParticleSystemQuadv2.h */; };
 		B2ADE9C817C23F20009852BE /* CCParticleSystemQuadv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */; };
+		DD08948E1905470C003D2B48 /* CCParticleSystemQuadv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */; };
+		DD08948F1905470D003D2B48 /* CCParticleSystemQuadv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */; };
+		DD0894901905470E003D2B48 /* CCParticleSystemQuadv2.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9C617C23F20009852BE /* CCParticleSystemQuadv2.m */; };
 		DDAE1A4118BCC9B700B9D1AF /* CCLabelBMFontv2.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAE1A3D18BCC9B700B9D1AF /* CCLabelBMFontv2.h */; };
 		DDAE1A4218BCC9B700B9D1AF /* CCLabelBMFontv2.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAE1A3E18BCC9B700B9D1AF /* CCLabelBMFontv2.m */; };
 		DDAE1A4318BCC9B700B9D1AF /* CCLabelTTFv2.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAE1A3F18BCC9B700B9D1AF /* CCLabelTTFv2.h */; };
@@ -4377,6 +4380,7 @@
 				A0D7DB6115E31365000CA0C4 /* CCActionTween.m in Sources */,
 				A0C70B3715E313C200CD8896 /* CCActionManager.m in Sources */,
 				A0C70B3815E313C200CD8896 /* CCActionCamera.m in Sources */,
+				DD0894901905470E003D2B48 /* CCParticleSystemQuadv2.m in Sources */,
 				A0C70B3915E313C200CD8896 /* CCAction.m in Sources */,
 				A0C70B3A15E313C200CD8896 /* CCActionInstant.m in Sources */,
 				A0C70B3B15E313C200CD8896 /* CCActionInterval.m in Sources */,
@@ -4504,6 +4508,7 @@
 				A0EFA761169CDF9C006D1B22 /* CCGrid.m in Sources */,
 				A0EFA762169CDF9C006D1B22 /* CCActionGrid3D.m in Sources */,
 				A0EFA763169CDF9C006D1B22 /* CCActionGrid.m in Sources */,
+				DD08948E1905470C003D2B48 /* CCParticleSystemQuadv2.m in Sources */,
 				A0EFA764169CDF9C006D1B22 /* CCActionTiledGrid.m in Sources */,
 				A0EFA765169CDF9C006D1B22 /* CCSprite.m in Sources */,
 				A0EFA766169CDF9C006D1B22 /* CCFileUtils.m in Sources */,
@@ -4602,6 +4607,7 @@
 				A0EFA83B169CDFA4006D1B22 /* CCGrid.m in Sources */,
 				A0EFA83C169CDFA4006D1B22 /* CCActionGrid3D.m in Sources */,
 				A0EFA83D169CDFA4006D1B22 /* CCActionGrid.m in Sources */,
+				DD08948F1905470D003D2B48 /* CCParticleSystemQuadv2.m in Sources */,
 				A0EFA83E169CDFA4006D1B22 /* CCActionTiledGrid.m in Sources */,
 				A0EFA83F169CDFA4006D1B22 /* CCSprite.m in Sources */,
 				A0EFA840169CDFA4006D1B22 /* CCFileUtils.m in Sources */,
