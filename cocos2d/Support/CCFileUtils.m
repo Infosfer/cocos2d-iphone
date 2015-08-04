@@ -167,12 +167,12 @@ NSInteger ccLoadFileIntoMemory(const char *filename, unsigned char **out)
 						 nil];
 
 		_directoriesDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
-							@"resources-ipad", kCCFileUtilsiPad,
-							@"resources-ipadhd", kCCFileUtilsiPadHD,
-							@"resources-iphone", kCCFileUtilsiPhone,
-							@"resources-iphonehd", kCCFileUtilsiPhoneHD,
-							@"resources-iphone5", kCCFileUtilsiPhone5,
-							@"resources-iphone5hd", kCCFileUtilsiPhone5HD,
+							@"resources-medium", kCCFileUtilsiPad,
+							@"resources-large", kCCFileUtilsiPadHD,
+							@"resources-small", kCCFileUtilsiPhone,
+							@"resources-medium", kCCFileUtilsiPhoneHD,
+							@"resources-small", kCCFileUtilsiPhone5,
+							@"resources-medium", kCCFileUtilsiPhone5HD,
 							@"", kCCFileUtilsDefault,
 							nil];
 
