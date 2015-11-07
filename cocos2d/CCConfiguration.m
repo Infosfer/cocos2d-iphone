@@ -139,9 +139,16 @@ static char * glExtensions;
 	else if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone )
 	{
 		// From http://stackoverflow.com/a/12535566
-		BOOL isiPhone5 = CGSizeEqualToSize([[UIScreen mainScreen] preferredMode].size,CGSizeMake(640, 1136));
-		
-		if( CC_CONTENT_SCALE_FACTOR() == 2 ) {
+        BOOL isiPhone5 = CGSizeEqualToSize([[UIScreen mainScreen] preferredMode].size,CGSizeMake(640, 1136));
+
+        // iPhone6
+        if ([[UIScreen mainScreen] preferredMode].size.width > 900.0f) {
+            ret = kCCDeviceiPadRetinaDisplay;
+        }
+        else if ([[UIScreen mainScreen] preferredMode].size.width > 700.0f) {
+            ret = kCCDeviceiPhone5RetinaDisplay;
+        }
+		else if( CC_CONTENT_SCALE_FACTOR() == 2 ) {
 			ret = isiPhone5 ? kCCDeviceiPhone5RetinaDisplay : kCCDeviceiPhoneRetinaDisplay;
 		} else
 			ret = isiPhone5 ? kCCDeviceiPhone5 : kCCDeviceiPhone;

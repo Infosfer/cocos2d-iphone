@@ -167,12 +167,12 @@ NSInteger ccLoadFileIntoMemory(const char *filename, unsigned char **out)
 						 nil];
 
 		_directoriesDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
-							@"resources-medium", kCCFileUtilsiPad,
-							@"resources-large", kCCFileUtilsiPadHD,
-							@"resources-small", kCCFileUtilsiPhone,
-							@"resources-medium", kCCFileUtilsiPhoneHD,
-							@"resources-small", kCCFileUtilsiPhone5,
-							@"resources-medium", kCCFileUtilsiPhone5HD,
+							@"resources-ipad", kCCFileUtilsiPad,
+							@"resources-ipadhd", kCCFileUtilsiPadHD,
+							@"", kCCFileUtilsiPhone,
+							@"resources-iphonehd", kCCFileUtilsiPhoneHD,
+							@"", kCCFileUtilsiPhone5,
+							@"resources-iphonehd", kCCFileUtilsiPhone5HD,
 							@"", kCCFileUtilsDefault,
 							nil];
 
@@ -233,37 +233,19 @@ NSInteger ccLoadFileIntoMemory(const char *filename, unsigned char **out)
 #ifdef __CC_PLATFORM_IOS
 	if (device == kCCDeviceiPadRetinaDisplay)
 	{
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPadHD];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPad];
-		if( _enableiPhoneResourcesOniPad ) {
-			[_searchResolutionsOrder addObject:kCCFileUtilsiPhone5HD];
-			[_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
-		}
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPadHD];
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPad];
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
 	}
 	else if (device == kCCDeviceiPad)
 	{
 		[_searchResolutionsOrder addObject:kCCFileUtilsiPad];
-		if( _enableiPhoneResourcesOniPad ) {
-			[_searchResolutionsOrder addObject:kCCFileUtilsiPhone5HD];
-			[_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
-		}
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
 	}
-	else if (device == kCCDeviceiPhone5RetinaDisplay)
+	else if (device == kCCDeviceiPhone5RetinaDisplay || device == kCCDeviceiPhoneRetinaDisplay)
 	{
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone5HD];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone5];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone];
-	}
-	else if (device == kCCDeviceiPhoneRetinaDisplay)
-	{
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone];
-	}
-	else if (device == kCCDeviceiPhone5)
-	{
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone5];
-		[_searchResolutionsOrder addObject:kCCFileUtilsiPhone];
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPhoneHD];
+        [_searchResolutionsOrder addObject:kCCFileUtilsiPad];
 	}
 	else if (device == kCCDeviceiPhone)
 	{
